@@ -1,0 +1,7 @@
+function functionName(small_value,big_value,small,big,goal) {
+  if (small*small_value+big*big_value >= goal && small*small_value>=goal%big_value && (goal%big_value)%small_value==0) {
+    return goal;
+  }
+}
+
+#may be a perfect code.
